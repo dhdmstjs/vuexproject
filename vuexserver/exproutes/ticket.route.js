@@ -10,8 +10,8 @@ var upload = multer({ dest: './uploads/'});
 const Ticket = require('../models/Ticket');
 
 AWS.config.update({
-    accessKeyId: "AKIAIHZR3R3LMLQCN2GQ",
-    secretAccessKey: "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"
+    accessKeyId: "",
+    secretAccessKey: "+d+23U5NIPcM"
   });
 
 var s3 = new AWS.S3();
