@@ -11,7 +11,7 @@ const Ticket = require('../models/Ticket');
 
 AWS.config.update({
     accessKeyId: "",
-    secretAccessKey: "+d+23U5NIPcM"
+    secretAccessKey: ""
   });
 
 var s3 = new AWS.S3();
